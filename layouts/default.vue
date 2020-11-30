@@ -6,6 +6,7 @@
 </template>
 
 <style>
+body{overflow-y: scroll;}
 @keyframes appear {
   0% {
     opacity: 0;
