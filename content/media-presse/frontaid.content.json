@@ -1,0 +1,316 @@
+{
+  "title": "Cafè Kafaen",
+  "index": {
+    "title": "Media/Presse"
+  },
+  "pages": [
+{
+   "path":"/media-presse/0",
+   "image":"0000.jpg",
+   "downloadText":"Last ned filmen",
+   "video":"1.mov",
+   "title":"0"
+},
+{
+   "path":"/media-presse/1",
+   "image":"0001.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"1"
+},
+{
+   "path":"/media-presse/2",
+   "image":"0002.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"2"
+},
+{
+   "path":"/media-presse/3",
+   "image":"0003.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"3"
+},
+{
+   "path":"/media-presse/4",
+   "image":"0004.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"4"
+},
+{
+   "path":"/media-presse/5",
+   "image":"0005.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"5"
+},
+{
+   "path":"/media-presse/6",
+   "image":"0006.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"6"
+},
+{
+   "path":"/media-presse/7",
+   "image":"0007.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"7"
+},
+{
+   "path":"/media-presse/8",
+   "image":"0008.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"8"
+},
+{
+   "path":"/media-presse/9",
+   "image":"0009.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"9"
+},
+{
+   "path":"/media-presse/10",
+   "image":"0010.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"10"
+},
+{
+   "path":"/media-presse/11",
+   "image":"0011.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"11"
+},
+{
+   "path":"/media-presse/12",
+   "image":"0012.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"12"
+},
+{
+   "path":"/media-presse/13",
+   "image":"0013.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"13"
+},
+{
+   "path":"/media-presse/14",
+   "image":"0014.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"14"
+},
+{
+   "path":"/media-presse/15",
+   "image":"0015.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"15"
+},
+{
+   "path":"/media-presse/16",
+   "image":"0016.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"16"
+},
+{
+   "path":"/media-presse/17",
+   "image":"0017.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"17"
+},
+{
+   "path":"/media-presse/18",
+   "image":"0018.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"18"
+},
+{
+   "path":"/media-presse/19",
+   "image":"0019.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"19"
+},
+{
+   "path":"/media-presse/20",
+   "image":"0020.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"20"
+},
+{
+   "path":"/media-presse/21",
+   "image":"0021.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"21"
+},
+{
+   "path":"/media-presse/22",
+   "image":"0022.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"22"
+},
+{
+   "path":"/media-presse/23",
+   "image":"0023.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"23"
+},
+{
+   "path":"/media-presse/24",
+   "image":"0024.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"24"
+},
+{
+   "path":"/media-presse/25",
+   "image":"0025.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"25"
+},
+{
+   "path":"/media-presse/26",
+   "image":"0026.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"26"
+},
+{
+   "path":"/media-presse/27",
+   "image":"0027.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"27"
+},
+{
+   "path":"/media-presse/28",
+   "image":"0028.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"28"
+},
+{
+   "path":"/media-presse/29",
+   "image":"0029.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"29"
+},
+{
+   "path":"/media-presse/30",
+   "image":"0030.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"30"
+},
+{
+   "path":"/media-presse/31",
+   "image":"0031.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"31"
+},
+{
+   "path":"/media-presse/32",
+   "image":"0032.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"32"
+},
+{
+   "path":"/media-presse/33",
+   "image":"0033.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"33"
+},
+{
+   "path":"/media-presse/34",
+   "image":"0034.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"34"
+},
+{
+   "path":"/media-presse/35",
+   "image":"0035.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"35"
+},
+{
+   "path":"/media-presse/36",
+   "image":"0036.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"36"
+},
+{
+   "path":"/media-presse/37",
+   "image":"0037.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"37"
+},
+{
+   "path":"/media-presse/38",
+   "image":"0038.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"38"
+},
+{
+   "path":"/media-presse/39",
+   "image":"0039.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"39"
+},
+{
+   "path":"/media-presse/40",
+   "image":"0040.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"40"
+},
+{
+   "path":"/media-presse/41",
+   "image":"0041.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"41"
+},
+{
+   "path":"/media-presse/42",
+   "image":"0042.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"42"
+},
+{
+   "path":"/media-presse/43",
+   "image":"0043.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"43"
+}
+  ]
+}
