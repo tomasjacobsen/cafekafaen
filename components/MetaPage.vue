@@ -32,12 +32,6 @@
         </b-col>
 
       </b-row>
-    <b-row class="justify-content-center my-5 text-center" v-if="!page.video">
-    <b-col cols="8" md=4>
-        <a :href="require(`@/assets/img/highrez/${page.image}`)" class="btn btn-outline-secondary" v-html="page.downloadText" :download="page.image"></a>
-    </b-col>
-    </b-row>
-
   </b-container>
   </section>
 </template>
