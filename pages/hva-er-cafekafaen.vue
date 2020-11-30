@@ -38,7 +38,6 @@ export default Vue.extend({
  head: {
   title: 'Hva er CafèKafaen | Cafè Kafaen',
   meta: [
-   { charset: 'utf-8' },
    { hid: 'description', name: 'description', content: 'Hva er CafèKafaen' }
   ],
  },

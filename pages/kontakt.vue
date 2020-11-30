@@ -31,12 +31,8 @@ export default Vue.extend({
   head: {
     title: 'Kontakt | Cafè Kafaen',
     meta: [
-      { charset: 'utf-8' },
       { hid: 'description', name: 'description', content: 'Kontakt CafèKafaen' }
     ],
-    link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;900&display=swap' },
-    ]
   },
 
   

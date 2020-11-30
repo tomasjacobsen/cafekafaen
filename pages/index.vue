@@ -1,35 +1,3 @@
-<!--template>
-
-<header>
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="../assets/frontpageMovie/bakgrunn.jpg">
-    <source src="../assets/frontpageMovie/bakgrunn.webm" type="video/webm">
-    <source src="../assets/frontpageMovie/bakgrunn.mp4" type="video/mp4">
-  </video>
-  <b-container class="h-100">
-    <b-row class="justify-content-md-center">
-      <b-col sm="12" md="8">
-        <Logo />
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <nuxt-link class="nav-link" to="/hva-er-cafekafaen">Om CafèKafaen</nuxt-link>
-            </li>
-            <li class="nav-item">
-                <nuxt-link class="nav-link" to="/styret">Styret</nuxt-link>
-            </li>
-            <li class="nav-item">
-                <nuxt-link class="nav-link" to="/media-presse">Media/Presse</nuxt-link>
-            </li>
-            <li class="nav-item">
-                <nuxt-link class="nav-link" to="/kontakt">Kontakt</nuxt-link>
-            </li>
-        </ul>
-        </nav>
-      </b-col>
-    </b-row>
-  </b-container>
-</header>
-</template-->
 <template>
   <header>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -69,14 +37,9 @@ export default Vue.extend({
   head: {
     title: 'Cafè Kafaen',
     meta: [
-      { charset: 'utf-8' },
       { hid: 'description', name: 'description', content: 'Cafè Kafaen er en pop-up restaurant' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
   },
-
 
 })
 </script>

@@ -10,10 +10,19 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' }
+      { hid: 'description', name: 'description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Cafè KaFaen' },
+      { hid: 'og:locale', name: 'og:locale', content: 'nb_NO' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:description', name: 'og:description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
+      { hid: 'og:image', name: 'og:image', content: '~assets/imgfacebook/cafeface.jpg' },
+      { hid: 'og:width', name: 'og:width', content: '1515' },
+      { hid: 'og:height', name: 'og:height', content: '795' },
+      { hid: 'og:url', name: 'og:url', content: 'https://www.cafekafaen.no/' },
+
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;900&display=swap' },
     ]
   },

@@ -79,7 +79,6 @@ export default Vue.extend({
  head: {
   title: 'Styret | Cafè Kafaen',
   meta: [
-   { charset: 'utf-8' },
    { hid: 'description', name: 'description', content: 'Styret i CafèKafaen' }
   ],
  },
