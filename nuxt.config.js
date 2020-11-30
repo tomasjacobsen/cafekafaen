@@ -11,14 +11,14 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
-      { hid: 'og:site_name', name: 'og:site_name', content: 'Cafè KaFaen' },
-      { hid: 'og:locale', name: 'og:locale', content: 'nb_NO' },
-      { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:description', name: 'og:description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
-      { hid: 'og:image:width', name: 'og:image:width', content: '1515' },
-      { hid: 'og:image:height', name: 'og:image:height', content: '795' },
-      { hid: 'og:url', name: 'og:url', content: 'https://www.cafekafaen.no/' },
-      { hid: 'og:image', name: 'og:image', content: '/cafeface.jpg' }
+      { name: 'og:site_name', content: 'Cafè KaFaen' },
+      { name: 'og:locale', content: 'nb_NO' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
+      { name: 'og:image:width', content: '1515' },
+      { name: 'og:image:height', content: '795' },
+      { name: 'og:url', content: 'https://www.cafekafaen.no/' },
+      { name: 'og:image', content: '/cafeface.jpg' }
 
     ],
     link: [
