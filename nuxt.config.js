@@ -15,7 +15,7 @@ export default {
       { hid: 'og:locale', name: 'og:locale', content: 'nb_NO' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:description', name: 'og:description', content: 'Årlig pop-up restaurant, der overskudd doneres til en organisasjon eller stiftelse som trenger det.' },
-      { hid: 'og:image', name: 'og:image', content: '~assets/imgfacebook/cafeface.jpg' },
+      { hid: 'og:image', name: 'og:image', content='~assets/img/facebook/cafeface.jpg'}, 
       { hid: 'og:width', name: 'og:width', content: '1515' },
       { hid: 'og:height', name: 'og:height', content: '795' },
       { hid: 'og:url', name: 'og:url', content: 'https://www.cafekafaen.no/' },
