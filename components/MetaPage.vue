@@ -1,30 +1,34 @@
 <template>
   <section class="content">
-    <b-container fluid>
-      <b-row class="justify-content-center">
-        <b-col cols=12 class="mb-2 text-center">
-            <div class="btn-group" role="group" aria-label="Image controls">
-                <nuxt-link v-if="this.prev" :to="this.prev" class="btn btn-secondary btn-sm">
+    <b-container fluid>      
+      <b-row class="d-flex justify-content-between align-items-center">
+
+        <b-col cols=6 md=1 class="order-2 order-md-1">
+                <nuxt-link v-if="this.prev" :to="this.prev" class="btn btn-outline-secondary btn-sm">
                     <i class="fas fa-chevron-left"></i> <span>Forrige</span> 
                 </nuxt-link>
-                <nuxt-link :to="this.next" class="btn btn-secondary btn-sm">
-                    <span>Neste</span> <i class="fas fa-chevron-right"></i>
-                </nuxt-link>
-            </div>
         </b-col>
-      </b-row>
-      
-      <b-row class="justify-content-md-center">
-        <b-col cols=12 md=9 v-if="page.video" class="order-2 order-md-1">
+
+        <b-col cols=12 md=8 v-if="page.video" class="order-1 order-md-2 mb-4 mb-md-0">
             <div class="embed-responsive embed-responsive-16by9" id="video">
                 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1242056495939083%2Fvideos%2F743067842784332%2F&amp;show_text=0" class="embed-responsive-item" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
         </b-col>
 
-        <b-col cols=12 md=8 v-else class="order-2 order-md-1">
+        <b-col cols=12 md=8 v-else class="order-1 order-md-2 mb-4 mb-md-0">
             <nuxt-image :placeholder="true" :src="`https://res.cloudinary.com/cafekafaen/image/upload/images/${page.image}`" :alt="page.title" class="img-fluid" />
-        </b-col>     
+        </b-col>
+
+
+
+        <b-col cols=6 md=1 class="text-right order-3 order-md-3">
+                <nuxt-link :to="this.next" class="btn btn-outline-secondary btn-sm">
+                    <span>Neste</span> <i class="fas fa-chevron-right"></i>
+                </nuxt-link>
+        </b-col>
       </b-row>
+
+
   </b-container>
   <script src="https://kit.fontawesome.com/0e675e52a5.js" crossorigin="anonymous"></script>
   </section>
