@@ -18,7 +18,7 @@ export default {
       { name: 'og:image:width', content: '1515' },
       { name: 'og:image:height', content: '795' },
       { name: 'og:url', content: 'https://www.cafekafaen.no/' },
-      { name: 'og:image', content: '/cafeface.jpg' }
+      { name: 'og:image', content: '/facebookImg.png' }
 
     ],
     link: [
