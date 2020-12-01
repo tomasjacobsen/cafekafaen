@@ -1,6 +1,6 @@
 <template>
   <header>
-  <video playsinline autoplay muted loop poster="../assets/frontpageMovie/bakgrunn.jpg">
+  <video playsinline autoplay muted loop poster="~assets/frontpageMovie/bakgrunn.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854939/videos/bakgrunn_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854652/videos/bakgrunn.mp4" type="video/mp4">
   </video>
@@ -49,7 +49,7 @@ export default Vue.extend({
 font-family: 'mellony dry brush Regular';
 font-style: normal;
 font-weight: normal;
-src: local('mellony dry brush Regular'), url('../assets/fonts/Mellonydrybrush.woff') format('woff');
+src: local('mellony dry brush Regular'), url('~assets/fonts/Mellonydrybrush.woff') format('woff');
 }
 
 
@@ -87,7 +87,7 @@ header .container {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background:black no-repeat center center scroll;
+    background: black no-repeat center center scroll url('~assets/frontpageMovie/bakgrunn.jpg');
   }
   header video {
     display: none;
