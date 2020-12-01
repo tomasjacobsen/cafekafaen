@@ -1,6 +1,6 @@
 <template>
   <header>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="../assets/frontpageMovie/bakgrunn.jpg">
+  <video playsinline autoplay muted loop poster="../assets/frontpageMovie/bakgrunn.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854939/videos/bakgrunn_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854652/videos/bakgrunn.mp4" type="video/mp4">
   </video>
