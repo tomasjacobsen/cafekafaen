@@ -19,6 +19,26 @@ export default {
 
 <style scoped>
 .masthead h1{
-  font-size: 80px;
+  font-size: 50px;
 }
+
+@media (min-width: 576px) {
+.masthead h1{
+  font-size: 60px;
+}
+}
+
+@media (min-width: 768px) { 
+  .masthead h1{
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead h1{
+    font-size: 80px;
+  }
+}
+
+
 </style>
