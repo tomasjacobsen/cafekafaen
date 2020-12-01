@@ -1,7 +1,5 @@
 <template>
-
-<div>
-  <b-navbar toggleable="sm"  id="default_nav" class="navbar-dark">
+  <b-navbar toggleable="sm" id="default_nav" class="navbar-dark mb-0">
   <div class="mx-md-auto d-sm-flex d-block flex-sm-nowrap">
     <nuxt-link to="/" class="navbar-brand">
         <logo />
@@ -28,7 +26,6 @@
     </b-collapse>
   </div>
   </b-navbar>
-</div>
 </template>
 
 
@@ -43,7 +40,7 @@ src: local('mellony dry brush Regular'), url('../assets/fonts/Mellonydrybrush.wo
 #default_nav {
   animation: 1s appear;
 }
-#default_nav .navbar-brand{max-width: 35%;}
+#default_nav .navbar-brand{max-width: 28%;}
 
 #default_nav .nav-link {color:#f1f2eb; font-size: 100%; font-family: 'mellony dry brush Regular';}
 #default_nav .nav-link:hover{color:#8a8a8a;}

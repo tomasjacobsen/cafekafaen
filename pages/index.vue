@@ -1,7 +1,8 @@
 <template>
   <header>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="../assets/frontpageMovie/bakgrunn.mp4" type="video/mp4">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="../assets/frontpageMovie/bakgrunn.jpg">
+    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854939/videos/bakgrunn_.webm" type="video/webm">
+    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854652/videos/bakgrunn.mp4" type="video/mp4">
   </video>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">

@@ -1,38 +1,32 @@
 <template>
   <section class="content">
-    <b-container>
+    <b-container fluid>
       <b-row class="justify-content-center">
-        <b-col cols="11" md=8>
-            <div v-if="page.video" class="carousel">
-                <div class="carousel-inner">
-                    <div class="embed-responsive embed-responsive-16by9" id="video">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1242056495939083%2Fvideos%2F743067842784332%2F&amp;show_text=0" class="embed-responsive-item" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-                    </div>
-                </div>
-                <nuxt-link :to="this.next" class="carousel-control-next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+        <b-col cols=12 class="mb-2 text-center">
+            <div class="btn-group" role="group" aria-label="Image controls">
+                <nuxt-link v-if="this.prev" :to="this.prev" class="btn btn-secondary btn-sm">
+                    <i class="fas fa-chevron-left"></i> <span>Forrige</span> 
+                </nuxt-link>
+                <nuxt-link :to="this.next" class="btn btn-secondary btn-sm">
+                    <span>Neste</span> <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
             </div>
-            <div v-else id="carouselExampleControls" class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" v-if="page.image">
-                        <img :src="require(`@/assets/img/lowrez/${page.image}`)" class="d-block w-100" :alt="page.title">
-                    </div>
-                </div>
-            <nuxt-link :to="this.prev" class="carousel-control-prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </nuxt-link>
-            <nuxt-link :to="this.next" class="carousel-control-next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </nuxt-link>
-            </div>        
+        </b-col>
+      </b-row>
+      
+      <b-row class="justify-content-md-center">
+        <b-col cols=12 md=9 v-if="page.video" class="order-2 order-md-1">
+            <div class="embed-responsive embed-responsive-16by9" id="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1242056495939083%2Fvideos%2F743067842784332%2F&amp;show_text=0" class="embed-responsive-item" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            </div>
         </b-col>
 
+        <b-col cols=12 md=8 v-else class="order-2 order-md-1">
+            <nuxt-image :placeholder="true" :src="`https://res.cloudinary.com/cafekafaen/image/upload/images/${page.image}`" :alt="page.title" class="img-fluid" />
+        </b-col>     
       </b-row>
   </b-container>
+  <script src="https://kit.fontawesome.com/0e675e52a5.js" crossorigin="anonymous"></script>
   </section>
 </template>
 

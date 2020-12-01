@@ -58,12 +58,22 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxt/image'
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   },
+
+  image: {
+    providers: {
+      cloudinary: {
+        baseURL: 'https://res.cloudinary.com/cafekafaen/image/upload/'
+      }
+    }
+  },
+  
 
   router: {
       async extendRoutes(routes, resolve) {
