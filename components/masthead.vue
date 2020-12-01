@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row class="justify-content-center">
-      <b-col col md="10">
+      <b-col cols=12 md="10">
         <header class="masthead text-center my-4">
           <h1 class="text-uppercase">{{pageTitle}}</h1>
         </header>
