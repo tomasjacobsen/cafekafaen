@@ -34,9 +34,5 @@ export default Vue.extend({
       { hid: 'description', name: 'description', content: 'Kontakt CafèKafaen' }
     ],
   },
-
-  
-
-
 })
 </script>
