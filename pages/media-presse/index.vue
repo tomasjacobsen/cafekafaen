@@ -20,9 +20,13 @@
             <p><a href="https://www.aftenbladet.no/kultur/i/nanVqJ/kulinarisk-rockedugnad" target="_blank">Aftenbladet.no (13.10.2019)</a></p>
             <hr>
             <h3 class="underline-heading mb-4">Sanger</h3>
+              <b-row>
+              <b-col cols=11 md=12>
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/album/0YLyttxjqNio6PHEwLFOkl" allowfullscreen llow="encrypted-media"></iframe>
               </div>
+              </b-col>
+              </b-row>
           </b-col>
         </b-row>
   </b-container>
