@@ -56,7 +56,37 @@ export default {
 
 
   },
+
+  methods: {
+    handleKeyPress(e) {
+      if (e.keyCode === 37) {
+        this.prevPage();
+      } else if (e.keyCode === 39) {
+        this.nextPage();
+      }
+    },
+    nextPage() {
+      this.$router.push({ path: this.next });
+    },
+    prevPage() {
+      this.$router.push({ path: this.prev });
+    }
+  },
+
+  created() {
+      if (typeof window !== 'undefined') {
+          document.addEventListener('keydown', this.handleKeyPress)
+      }
+  },
+  beforeDestroy() {
+      if (typeof window !== 'undefined') {
+          document.removeEventListener('keydown', this.handleKeyPress)
+      }
+  },
+
   mounted(){
+      window.addEventListener('keydown', this.handleKeyPress);
+
       if (this.page.title !== '0'){
           var prev_pagetile = (parseInt(this.page.title) - 1).toString()
           this.prev = `/media-presse/${prev_pagetile}`;
@@ -71,6 +101,7 @@ export default {
       }
 
   },
+  
   async asyncData({$content}) {
     const content = await $content(conf.CONTENT).fetch();
     return {
