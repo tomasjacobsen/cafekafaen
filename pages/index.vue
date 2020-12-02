@@ -10,7 +10,7 @@
         <Logo />
         <ul class="nav justify-content-center" id="frontpage_menu">
             <li class="nav-item">
-                <nuxt-link class="nav-link" to="/hva-er-cafekafaen">Om CafèKafaen</nuxt-link>
+                <nuxt-link class="nav-link" to="/hva-er-cafekafaen">Om Cafè Kafaen</nuxt-link>
             </li>
             <li class="nav-item">
                 <nuxt-link class="nav-link" to="/styret">Styret</nuxt-link>
