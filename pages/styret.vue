@@ -6,7 +6,7 @@
  <b-container>
   <b-row class="justify-content-md-center">
    <b-col cols="12" md="8">
-    <p class="mb-4">Dette er styret. For at Cafèen i hele tatt skal være i nærheten av å gå av stabelen er vi avhengig av hjelp. Mye hjelp. I 2019 ble det anslått at en gjennomføring kostet i overkant av en halv million riksdaler. Mye av dette kommer av billett og merchandaisesalg, mye kommer av våre fantastiske sponsorer og samarbeidspartnere. Det er utrolig hva som kan gjennomføres når gode krefter samles. Det går også med enorme mengder dugnadstimer fra styret vårt. Styret har de siste årene blitt utvidet med personer som kan bidra som relevante ressurser, så her kommer en liten presentasjon av disse.</p>
+    <p class="mb-4">For at Cafèen i hele tatt skal være i nærheten av å gå av stabelen er vi avhengig av hjelp. Mye hjelp. I 2019 ble det anslått at en gjennomføring kostet i overkant av en halv million riksdaler. Mye av dette kommer av billett og merchandaisesalg, mye kommer av våre fantastiske sponsorer og samarbeidspartnere. Det er utrolig hva som kan gjennomføres når gode krefter samles. Det går også med enorme mengder dugnadstimer fra styret vårt. Styret har de siste årene blitt utvidet med personer som kan bidra som relevante ressurser, så her kommer en liten presentasjon av disse.</p>
     
     <b-card class="mb-2 bg-dark"> 
       <h3 class="card-title underline-heading">Christopher William Davidsen.</h3>
