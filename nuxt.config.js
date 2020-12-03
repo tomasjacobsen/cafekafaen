@@ -51,6 +51,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -74,6 +75,9 @@ export default {
     }
   },
   
+  googleAnalytics: {
+    id: 'UA-135655018-1'
+  },
 
   router: {
       async extendRoutes(routes, resolve) {
