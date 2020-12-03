@@ -1,8 +1,8 @@
 <template>
   <header>
   <video playsinline autoplay muted loop poster="~assets/frontpageMovie/bakgrunn.jpg">
-    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854939/videos/bakgrunn_.webm" type="video/webm">
-    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1606854652/videos/bakgrunn.mp4" type="video/mp4">
+    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
+    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
   </video>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
