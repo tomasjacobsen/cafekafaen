@@ -1,6 +1,6 @@
 <template>
   <header>
-  <video playsinline autoplay muted loop poster="~assets/frontpageMovie/bakgrunn.jpg">
+  <video playsinline autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
   </video>
@@ -87,7 +87,7 @@ header .container {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: black no-repeat center center scroll url('~assets/frontpageMovie/bakgrunn.jpg');
+    background: black no-repeat center center scroll url('~assets/frontpageMovie/backgroundmovie_poster.jpg');
   }
   header video {
     display: none;
