@@ -10,7 +10,7 @@
     <b-collapse id="nav-collapse" class="text-left text-md-center" is-nav>
       <b-navbar-nav>
             <li class="nav-item">
-                <nuxt-link to="/hva-er-cafekafaen" class="nav-link">Om Cafè Kafaen</nuxt-link>
+                <nuxt-link to="/hva-er-cafekafaen" class="nav-link">Om Cafè KaFaen</nuxt-link>
             </li>
             <li class="nav-item">
                 <nuxt-link to="/styret" class="nav-link">Styret</nuxt-link>
