@@ -3,6 +3,7 @@
   <video playsinline autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
+    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie__.ogv" type="video/ogg">
   </video>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
