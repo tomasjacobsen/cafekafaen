@@ -16,7 +16,7 @@
  <hr>
  <h2>Ofte stilte spørsmål</h2>
  <p><strong>Hvordan får man tak i billetter?</strong><br>
- Billettsalg blir annonsert på vår <a href="https://www.facebook.com/Cafè-KaFaen-1242056495939083/" target="_blank">facebookside</a> facebookside og administrert derfra. I fjor solgte vi ut på nitti sekunder, og det er “first come, first serve” som gjelder. Det er mulig vi inngår et samarbeid med ekstern billettformidler i fremtiden, men dette vil også bli annonsert.</p>
+ Billettsalg blir annonsert på vår <a href="https://www.facebook.com/Cafè-KaFaen-1242056495939083/" target="_blank">facebookside</a> og administrert derfra. I fjor solgte vi ut på nitti sekunder, og det er “first come, first serve” som gjelder. Det er mulig vi inngår et samarbeid med ekstern billettformidler i fremtiden, men dette vil også bli annonsert.</p>
  <p><strong>Hvor mye koster det?</strong><br>
  Det har variert, men de siste gangene har prisen pr billett ligget på rundt to tusen kroner. Drikke er ikke inkludert i denne prisen og må medbringes.</p>
  <p><strong>Hva går overskuddet til?</strong><br>
