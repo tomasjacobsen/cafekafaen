@@ -1,7 +1,7 @@
 <template>
 
   <header>
-  <script type="text/javascript">jQuery(document).ready(function(){jQuery(".et\_pb\_section\_video\_bg video").prop('muted', true);});</script>
+  <script type="text/javascript">jQuery(document).ready(function(){jQuery("video").prop('muted', true);});</script>
   <video playsinline preload="none" data-video-defer="view" autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
