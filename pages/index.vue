@@ -1,8 +1,7 @@
 <template>
 
   <header>
-  <script type="text/javascript">jQuery(document).ready(function(){jQuery("video").prop('muted', true);});</script>
-  <video playsinline preload="none" data-video-defer="view" autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
+  <video class="video" playsinline preload="none" data-video-defer="view" autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
     <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie__.ogv" type="video/ogg">
@@ -44,6 +43,18 @@ export default Vue.extend({
       { hid: 'description', name: 'description', content: 'Cafè Kafaen er en pop-up restaurant' }
     ],
   },
+  name: 'Video',
+  mounted() {
+      // Start looped video.
+      let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+      let video = document.querySelector('.video');
+      if (isSafari && video) {
+          setTimeout(function() {
+              // weird fix for safari
+              document.querySelector('header')!.innerHTML = video!.outerHTML;
+          }, 100);
+      }
+  }
 
 })
 </script>
