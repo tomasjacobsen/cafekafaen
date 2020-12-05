@@ -1,12 +1,9 @@
 <template>
-
-  <header>
-  <video class="video" playsinline preload="none" data-video-defer="view" autoplay muted loop poster="~assets/frontpageMovie/backgroundmovie_poster.jpg">
-    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032221/videos/backgroundmovie_.webm" type="video/webm">
-    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4" type="video/mp4">
-    <source src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie__.ogv" type="video/ogg">
-  </video>
-  <div class="container h-100">
+ <video-background 
+    src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4"
+    poster="~assets/frontpageMovie/backgroundmovie_poster.jpg"
+    style="height: 100vh;">
+<div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white text-center align-items-center">
         <Logo />
@@ -27,7 +24,7 @@
       </div>
     </div>
   </div>
-</header>
+</video-background>
 </template>
 
 <script lang="ts">
@@ -43,18 +40,9 @@ export default Vue.extend({
       { hid: 'description', name: 'description', content: 'Cafè Kafaen er en pop-up restaurant' }
     ],
   },
-  name: 'Video',
-  mounted() {
-      // Start looped video.
-      let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-      let video = document.querySelector('.video');
-      if (isSafari && video) {
-          setTimeout(function() {
-              // weird fix for safari
-              document.querySelector('header')!.innerHTML = video!.outerHTML;
-          }, 100);
-      }
-  }
+
+
+
 
 })
 </script>
@@ -69,42 +57,4 @@ src: local('mellony dry brush Regular'), url('~assets/fonts/Mellonydrybrush.woff
 
 #frontpage_menu .nav-item .nav-link{color: white; font-size: 180%; font-family: 'mellony dry brush Regular';}
 #frontpage_menu .nav-item .nav-link:hover{color:rgb(134, 134, 134);}
-
-header {
-  position: relative;
-  background-color: black;
-  height: 100vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: black no-repeat center center scroll url('~assets/frontpageMovie/backgroundmovie_poster.jpg');
-  }
-  header video {
-    display: none;
-  }
-}
 </style>
