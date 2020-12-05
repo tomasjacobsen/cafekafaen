@@ -1,7 +1,10 @@
 <template>
  <video-background 
-    src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4"
+    src="https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie_high.mp4"
     poster="/backgroundmovie_poster.jpg"
+    :sources="[
+        {src: 'https://res.cloudinary.com/cafekafaen/video/upload/v1607032215/videos/backgroundmovie.mp4', res: 767, autoplay: true} 
+    ]"
     style="height: 100vh;">
 <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
