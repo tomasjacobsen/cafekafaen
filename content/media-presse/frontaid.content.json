@@ -5,6 +5,13 @@
   },
   "pages": [
 {
+   "path":"/media-presse/cafeposter2020",
+   "image":"Cafeposter2020.jpg",
+   "downloadText":"Last ned bildet",
+   "video": null,
+   "title":"Cafeposter2020"
+},
+{
    "path":"/media-presse/0",
    "image":"videoscreen.png",
    "downloadText":"Last ned filmen",
