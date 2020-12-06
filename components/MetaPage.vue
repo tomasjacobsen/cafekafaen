@@ -93,6 +93,14 @@ export default {
       }else{
           this.next = '/media-presse/0/';
       }
+
+      if (this.page.title != '0'){
+          var prev_pagetile = (parseInt(this.page.title) - 1).toString()
+          this.prev = `/media-presse/${prev_pagetile}/`;
+      }else{
+          this.next = '/media-presse/cafeposter2020/';
+      }
+      
       if (this.page.title != '43'){
           var next_pagetile = (parseInt(this.page.title) + 1).toString()
           this.next = `/media-presse/${next_pagetile}`;
