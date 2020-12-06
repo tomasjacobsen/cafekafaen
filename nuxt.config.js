@@ -6,7 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'CafèKafaen',
+    title: 'Cafè KaFaen',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,7 +18,7 @@ export default {
       { name: 'og:image:width', content: '1515' },
       { name: 'og:image:height', content: '795' },
       { name: 'og:url', content: 'https://www.cafekafaen.no/' },
-      { name: 'og:image', content: '/facebookImg.png' }
+      { name: 'og:image', content: '/facebookImg.jpg' }
 
     ],
     link: [
