@@ -87,27 +87,26 @@ export default {
   mounted(){
       window.addEventListener('keydown', this.handleKeyPress);
 
-      if (this.page.title != 'cafeposter2020'){
-          var prev_pagetile = (parseInt(this.page.title) - 1).toString()
-          this.prev = `/media-presse/${prev_pagetile}/`;
-      }else{
-          this.next = '/media-presse/0/';
-      }
+      console.log(this.page.title)
 
-      if (this.page.title != '0'){
-          var prev_pagetile = (parseInt(this.page.title) - 1).toString()
-          this.prev = `/media-presse/${prev_pagetile}/`;
-      }else{
-          this.next = '/media-presse/cafeposter2020/';
-      }
-      
-      if (this.page.title != '43'){
+      if (this.page.title === 'cafeposter2020'){
+          this.next = '/media-presse/0';
+      } else if (this.page.title === '0'){
+          this.prev = '/media-presse/cafeposter2020'; 
           var next_pagetile = (parseInt(this.page.title) + 1).toString()
-          this.next = `/media-presse/${next_pagetile}/`;
+          this.next = `/media-presse/${next_pagetile}`;
+      } else if (this.page.title === '0' ||  this.page.title === '43'){
+          var prev_pagetile = (parseInt(this.page.title) - 1).toString()
+          this.prev = `/media-presse/${prev_pagetile}`;   
+          this.next = '/media-presse/cafeposter2020'; 
       }else{
-          this.next = '/media-presse/cafeposter2020/';
+          var prev_pagetile = (parseInt(this.page.title) - 1).toString()
+          this.prev = `/media-presse/${prev_pagetile}`;   
+          var next_pagetile = (parseInt(this.page.title) + 1).toString()
+          this.next = `/media-presse/${next_pagetile}`;
       }
 
+      
   },
   
   async asyncData({$content}) {
