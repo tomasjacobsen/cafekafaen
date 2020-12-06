@@ -103,7 +103,7 @@ export default {
       
       if (this.page.title != '43'){
           var next_pagetile = (parseInt(this.page.title) + 1).toString()
-          this.next = `/media-presse/${next_pagetile}`;
+          this.next = `/media-presse/${next_pagetile}/`;
       }else{
           this.next = '/media-presse/cafeposter2020/';
       }
