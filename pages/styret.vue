@@ -9,7 +9,7 @@
     <p class="mb-4">For at Cafèen i hele tatt skal være i nærheten av å gå av stabelen er vi avhengig av hjelp. Mye hjelp. I 2019 ble det anslått at en gjennomføring kostet i overkant av en halv million riksdaler. Mye av dette kommer av billett og merchandaisesalg, mye kommer av våre fantastiske sponsorer og samarbeidspartnere. Det er utrolig hva som kan gjennomføres når gode krefter samles. Det går også med enorme mengder dugnadstimer fra styret vårt. Styret har de siste årene blitt utvidet med personer som kan bidra som relevante ressurser, så her kommer en liten presentasjon av disse.</p>
     
     <b-card class="mb-2 bg-dark"> 
-      <h3 class="card-title underline-heading">Christopher William Davidsen.</h3>
+      <h3 class="card-title underline-heading">Christopher William Davidsen</h3>
      <p class="card-text">Doffen har enorme meritter innenfor bransjen, og for å ta det veldig kort: Verdensmester 2014, Årets kokk 2015, Sølv i Bocuse Budapest 2016, og sølv i Bocuse dÒr 2017. Driver til vanlig Speilsalen i  Trondheim som har en Stjerne i Guide Michelin. Er utenom dette kjent for dårlige vitser, utestemme og lav impulskontroll.</p>
     </b-card>
     <b-card class="mb-2 bg-dark"> 
@@ -75,9 +75,9 @@ import Vue from 'vue'
 export default Vue.extend({
  
  head: {
-  title: 'Styret | Cafè Kafaen',
+  title: 'Styret | Cafè KaFaen',
   meta: [
-   { hid: 'description', name: 'description', content: 'Styret i CafèKafaen' }
+   { hid: 'description', name: 'description', content: 'Styret i Cafè Fafaen' }
   ],
  },
 

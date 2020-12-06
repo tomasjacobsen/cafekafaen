@@ -38,9 +38,9 @@ export default Vue.extend({
     return 'noNav'
   },
   head: {
-    title: 'Cafè Kafaen',
+    title: 'Cafè KaFaen',
     meta: [
-      { hid: 'description', name: 'description', content: 'Cafè Kafaen er en pop-up restaurant' }
+      { hid: 'description', name: 'description', content: 'Cafè KaFaen er en pop-up restaurant' }
     ],
   },
 

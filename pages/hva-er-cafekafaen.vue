@@ -35,7 +35,7 @@ import Vue from 'vue'
 export default Vue.extend({
  
  head: {
-  title: 'Hva er CafèKafaen | Cafè Kafaen',
+  title: 'Hva er CafèKafaen | Cafè KaFaen',
   meta: [
    { hid: 'description', name: 'description', content: 'Hva er CafèKafaen' }
   ],

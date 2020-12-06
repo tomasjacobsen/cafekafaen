@@ -29,9 +29,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   head: {
-    title: 'Kontakt | Cafè Kafaen',
+    title: 'Kontakt | Cafè KaFaen',
     meta: [
-      { hid: 'description', name: 'description', content: 'Kontakt CafèKafaen' }
+      { hid: 'description', name: 'description', content: 'Kontakt Cafè KaFaen' }
     ],
   },
 })
