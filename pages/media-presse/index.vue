@@ -10,7 +10,7 @@
               <b-row class="justify-content-md-center">
                   <b-col cols=6 md=4 lg=3 v-for="page in content.pages" :key="page.title">
                       <nuxt-link :to="page.path" class="d-block mb-4 h-100">
-                          <nuxt-image :placeholder="true" :src="`https://res.cloudinary.com/cafekafaen/image/upload/images/${page.image}`" :alt="page.title" width="400" height="400" sizes="400" fit="cover" class="img-fluid img-thumbnail" />
+                          <nuxt-img :placeholder="true" :src="`https://res.cloudinary.com/cafekafaen/image/upload/images/${page.image}`" :alt="page.title" width="400" height="400" fit="fill" class="img-fluid img-thumbnail" />
                       </nuxt-link>
                   </b-col>
               </b-row>
