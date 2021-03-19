@@ -15,8 +15,8 @@
             </div>
         </b-col>
 
-        <b-col cols=12 md=8 v-else class="order-1 order-md-2 mb-4 mb-md-0">
-            <nuxt-img :placeholder="false" :src="`https://res.cloudinary.com/cafekafaen/image/upload/images/${page.image}`" :alt="page.title" sizes="lg:1600px" fit="cover" height="970" class="img-fluid" />
+        <b-col cols=12 md=8 v-else class="order-1 order-md-2 mb-4 mb-md-0 text-center">
+            <nuxt-img provider="cloudinary" fit="cover" height="970" :src="`images/${page.image}.jpg`" :alt="page.title" class="img-fluid" />
         </b-col>
 
 

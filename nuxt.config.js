@@ -70,12 +70,10 @@ export default {
   },
 
   image: {
-    providers: {
-      cloudinary: {
-        baseURL: 'https://res.cloudinary.com/cafekafaen/image/upload/'
-      }
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/cafekafaen/image/upload/'
     }
-  },
+  },  
   
   googleAnalytics: {
     id: 'UA-135655018-1'
