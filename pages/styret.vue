@@ -14,7 +14,7 @@
     </b-card>
     <b-card class="mb-2 bg-dark"> 
       <h3 class="card-title underline-heading">Fredrik Ringe</h3>
-     <p class="card-text">Reklamefotograf, Miljøarbeider på institusjon og hovmester på Fisketorget fire dager i året. Jobbet tett med mange av de mest profilerte kokkene i mange år. Ingen matfaglig utdanning, men passe miljøskadet etter å ha trødd i ganske mange kjøkken opp igjennom. Formelt sett restaurantør, siden han er daglig leder i Cafe KaFaen. Utenom dette kjent for å være så rastløs at restaurantregningen skal bestilles mens vi enda har mat i munnen.</p>
+     <p class="card-text">Gjøgler i Head Energy, tidligere reklamefotograf, miljøarbeider på institusjon og hovmester på Fisketorget fire dager i året. Jobbet tett med mange av de mest profilerte kokkene i mange år. Ingen matfaglig utdanning, men passe miljøskadet etter å ha trødd i ganske mange kjøkken opp igjennom. Formelt sett restaurantør, siden han er daglig leder i Cafe KaFaen. Utenom dette kjent for å være så rastløs at restaurantregningen skal bestilles mens vi enda har mat i munnen.</p>
     </b-card>
     <b-card class="mb-2 bg-dark"> 
       <h3 class="card-title underline-heading">Karl Erik Pallesen</h3>
